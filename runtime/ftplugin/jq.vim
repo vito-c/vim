@@ -13,6 +13,3 @@ let b:undo_ftplugin = 'setl commentstring<'
 
 setlocal commentstring=#%s
 compiler jq
-
-let &cpoptions = s:save_cpoptions
-unlet s:save_cpoptions
